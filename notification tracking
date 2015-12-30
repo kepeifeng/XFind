@@ -1,0 +1,24 @@
+
+//Enter Text
+2015-12-29 18:12:32.347 Xcode[38968:4505462] [NOTE]	DVTSourceTextView	NSTextViewDidChangeSelectionNotification
+2015-12-29 18:12:32.347 Xcode[38968:4505462] [NOTE]	DVTSourceTextView	NSTextDidChangeNotification
+2015-12-29 18:12:32.348 Xcode[38968:4505462] [NOTE]	DVTUndoManager	NSUndoManagerDidOpenUndoGroupNotification
+2015-12-29 18:12:32.348 Xcode[38968:4505462] [NOTE]	DVTSourceTextView	NSTextDidChangeNotification
+2015-12-29 18:12:32.348 Xcode[38968:4505462] [NOTE]	DVTSourceTextView	NSTextViewDidChangeSelectionNotification
+2015-12-29 18:12:32.348 Xcode[38968:4505462] [NOTE]	DVTUndoManager	DVTUndoManagerWillEndUndoGroupingNotification
+2015-12-29 18:12:32.348 Xcode[38968:4505462] [NOTE]	DVTUndoManager	NSUndoManagerCheckpointNotification
+2015-12-29 18:12:32.348 Xcode[38968:4505462] [NOTE]	DVTUndoManager	NSUndoManagerWillCloseUndoGroupNotification
+2015-12-29 18:12:32.349 Xcode[38968:4505462] [NOTE]	DVTUndoManager	NSUndoManagerDidCloseUndoGroupNotification
+2015-12-29 18:12:32.349 Xcode[38968:4505462] [NOTE]	DVTUndoManager	DVTUndoManagerDidAddTopLevelChangeGroupNotification
+
+//Undo
+2015-12-29 18:17:08.470 Xcode[39135:4542343] [NOTE]	DVTUndoManager	NSUndoManagerCheckpointNotification
+2015-12-29 18:17:08.470 Xcode[39135:4542343] [NOTE]	DVTUndoManager	NSUndoManagerCheckpointNotification
+2015-12-29 18:17:08.470 Xcode[39135:4542343] [NOTE]	DVTUndoManager	NSUndoManagerWillUndoChangeNotification
+2015-12-29 18:17:08.471 Xcode[39135:4542343] [NOTE]	DVTSourceTextView	NSTextViewDidChangeSelectionNotification
+2015-12-29 18:17:08.471 Xcode[39135:4542343] [NOTE]	DVTSourceTextView	NSTextDidChangeNotification
+2015-12-29 18:17:08.472 Xcode[39135:4542343] [NOTE]	DVTSourceTextView	NSTextViewDidChangeSelectionNotification
+2015-12-29 18:17:08.472 Xcode[39135:4542343] [NOTE]	DVTSourceTextView	NSTextViewDidChangeSelectionNotification
+2015-12-29 18:17:08.472 Xcode[39135:4542343] [NOTE]	DVTUndoManager	DVTUndoManagerWillEndUndoGroupingNotification
+2015-12-29 18:17:08.472 Xcode[39135:4542343] [NOTE]	DVTUndoManager	NSUndoManagerCheckpointNotification
+2015-12-29 18:17:08.472 Xcode[39135:4542343] [NOTE]	DVTUndoManager	NSUndoManagerDidUndoChangeNotification
