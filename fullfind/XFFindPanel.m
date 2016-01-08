@@ -132,7 +132,7 @@
     [_searchField setFocusRingType:(NSFocusRingTypeNone)];
     _searchField.bordered = NO;
     _searchField.autoresizingMask = NSViewWidthSizable;
-    _searchField.font = [NSFont fontWithName:@"Menlo" size:12];
+    _searchField.font = [NSFont fontWithName:@"Menlo" size:11];
     _searchField.placeholderString = @"Find";
 
     [self addSubview:_searchField];
@@ -166,7 +166,7 @@
     _replaceField.bordered = NO;
     _replaceField.placeholderString = @"Replacement";
     _replaceField.focusRingType = NSFocusRingTypeNone;
-    _replaceField.font = [NSFont fontWithName:@"Menlo" size:12];
+    _replaceField.font = [NSFont fontWithName:@"Menlo" size:11];
     [self addSubview:_replaceField];
     
     NSButton * allButton = [[NSButton alloc] initWithFrame:NSMakeRect(NSMaxX(_replaceField.frame), 32, 40, 28)];
@@ -337,7 +337,7 @@
 -(void)highlightRanges:(NSArray *)rangeArray{
 
     for (NSValue * rangeValue in rangeArray) {
-        [self.textView.textStorage addAttributes:@{NSBackgroundColorAttributeName:[[NSColor yellowColor] colorWithAlphaComponent:0.2]}
+        [self.textView.textStorage addAttributes:@{NSBackgroundColorAttributeName:[[NSColor yellowColor] colorWithAlphaComponent:0.4]}
                                            range:[rangeValue rangeValue]];
 //        [self.textView.textStorage addAttribute: value: range:];
     }

@@ -91,7 +91,7 @@
     NSString * replacedString = [origialString stringByReplacingOccurrencesOfString:substring
                                                                          withString:replaceString
                                                                             options:compareOptions
-                                                                              range:limitRange];
+                                                                              range:NSMakeRange(0, origialString.length)];
     
     [self.textStorage replaceCharactersInRange:limitRange
                                     withString:replacedString
